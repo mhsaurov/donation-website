@@ -153,3 +153,105 @@ img{
 #card3{
     background-color: rgba(255, 136, 0, 0.137);
 }
+
+.contact-us{
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url(img/donation8.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.contribute{
+    display: flex;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    
+}
+.text-items{
+    width: 50%;
+    margin: auto;
+    padding-left: 10%;
+}
+.text-items h1{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.text-items p{
+    font-size: 20px;
+    color: rgba(34, 34, 34, 0.432);
+}
+.con-img{
+    width: 50%;
+    padding-left: 10%;
+}
+
+.con-img img{
+    width: 80%;
+}
+
+.email-submit{
+    width: 100%;
+    text-align: center;
+    
+}
+.email-submit h1{
+    font-size: 50px;
+    color: #222;
+    text-transform: uppercase;
+}
+.email-submit p{
+    font-size: 20px;
+    color: gray;
+}
+.email-box{
+    width: 50%;
+    margin: 50px auto;
+    padding: 100px ;
+    background-color: rgba(255, 99, 71, 0.548);
+    position: relative;
+
+}
+.email-box input{
+    width: 80%;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+
+    
+   
+    
+}
+.email-btn{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    left: 455px;
+    background-color: tomato;
+    color: #fff;
+    
+}
+.email-btn:hover{
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    background-color: #222;
+    
+}
+footer img{
+    width: 20%;
+    padding: 20px;
+}
+footer h5{
+    width: 100%;
+    border-top: 1px solid #fff;
+    color: #fff;
+    margin: auto;
+    padding: 10px;
+}

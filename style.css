@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Tiro Telugu', serif;
+}
+image{
+    max-width: 100%;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url(img/donation14.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.content{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    right: 10%;
+    color: #fff;
+    text-align: center;
+}
+.content h1{
+    font-size: 90px;
+    line-height: 1.2em;
+    text-transform: capitalize;
+    font-family: 700;
+    word-spacing: 10px;
+}
+.content p{
+    font-size: 20px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: tomato;
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    border: none;
+}
+.btn:hover{
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid tomato;
+    cursor: pointer;
+    transform: translateY(-6px);
+    transition: all 0.5s ease-in-out;
+    color: #222;
+}
+
+.donation-option{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.donation-option h1{
+    padding-top: 80px ;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.donation-option p{
+    font-size: 20px;
+    color: gray
+}
+.all-box{
+    width: 100%;
+    margin: 40px 0;
+}
+.box1{
+    width: 150px;
+    height: 155px;
+    text-align: center;
+    line-height: 155px;
+    background-color: rgba(199, 199, 199, 0.295);
+    margin: 10px 20px;
+    color: rgb(92, 92, 92);
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 5px;
+}
+#border-color{
+    border-radius: 5px;
+    border: 4px solid tomato;
+}
